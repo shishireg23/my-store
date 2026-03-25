@@ -2,8 +2,14 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-}
 
+}
+.container{
+     width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+}
 /* ===== Top Bar ===== */
 
 @media (max-width: 768px) {
@@ -20,9 +26,16 @@ body {
   .logo {
     font-size: 16px;
   }
-  
+  .menu{
+    flex-direction: column;
+
+  }
+  .section{
+    padding: 10px;
+  }
 }
 .top-bar {
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
