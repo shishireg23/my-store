@@ -5,11 +5,29 @@ body {
 }
 
 /* ===== Top Bar ===== */
+
+@media (max-width: 768px) {
+  .top-bar{
+    padding: 15px 20px;
+  }
+  .social{
+    display: none;
+
+  }
+  .search input {
+    width: 120px;
+  }
+  .logo {
+    font-size: 16px;
+  }
+  
+}
 .top-bar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 60px;
+  padding: 15px 20px;
   background: #f3f3f3;
     backdrop-filter: blur(10px); /* main blur */
     -webkit-backdrop-filter: blur(10px); /* safari support */
@@ -25,7 +43,7 @@ body {
   margin-right: 10px;
   cursor: pointer;
   transition: 0.3s;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 
