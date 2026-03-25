@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-/* ===== Top Bar ===== */
+
 
 @media (max-width: 768px) {
   .top-bar{
@@ -33,7 +33,33 @@ body {
   .section{
     padding: 10px;
   }
+  .navbar{
+    padding: 10px ;
+    
+  }
+  .navbar a {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .menu-icon{
+    display: block;
+  }
+  .nav-manu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav-manu a{
+    font-size: 12px;
+    margin: 5px;
+  }
+  body {
+    overflow: hidden;
+  }
 }
+/* ===== Top Bar ===== */
+
+
 .top-bar {
 
   display: flex;
